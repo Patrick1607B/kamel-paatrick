@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <div class="title">
+                <h1>Amiral vs Pirate</h1>
+            </div>
+                <div class="choixBateau">
+                    <div class="start1" ondragstart="start(event)">
+                        <img src="img/WRaiOMy.png" id="bateau1" draggable="true">
+                    </div>
+                    <div class="start1" ondragstart="start(event)">
+                        <img src="img/5iMU76c.png" id="bateau2" draggable="true">
+                    </div>
+            </div>
+            <div class="grid">
+                <div class="parent">
+                    <div class="div1" id="A1" ondragover="return over()" ondrop="return drop(event)"> <p>A1</p> </div>
+                    <div class="div2" id="A2" ondragover="return over()" ondrop="return drop(event)"><p>A2</p> </div>
+                    <div class="div3" id="A3" ondragover="return over()" ondrop="return drop(event)"> <p>A3</p></div>
+                    <div class="div4" id="A4" ondragover="return over()" ondrop="return drop(event)"><p>A4</p> </div>
+                    <div class="div5" id="B1" ondragover="return over()" ondrop="return drop(event)"> <p>B1</p></div>
+                    <div class="div6" id="B2" ondragover="return over()" ondrop="return drop(event)"> <p>B2</p></div>
+                    <div class="div7" id="B3" ondragover="return over()" ondrop="return drop(event)"> <p>B3</p></div>
+                    <div class="div8" id="B4" ondragover="return over()" ondrop="return drop(event)"> <p>B4</p></div>
+                    <div class="div9" id="C1" ondragover="return over()" ondrop="return drop(event)"> <p>C1</p></div>
+                    <div class="div10" id="C2" ondragover="return over()" ondrop="return drop(event)"> <p>C2</p></div>
+                    <div class="div11" id="C3" ondragover="return over()" ondrop="return drop(event)"> <p>C3</p></div>
+                    <div class="div12" id="C4" ondragover="return over()" ondrop="return drop(event)"> <p>C4</p></div>
+                    <div class="div13" id="D1" ondragover="return over()" ondrop="return drop(event)"> <p>D1</p></div>
+                    <div class="div14" id="D2" ondragover="return over()" ondrop="return drop(event)"><p>D2</p> </div>
+                    <div class="div15" id="D3" ondragover="return over()" ondrop="return drop(event)"> <p>D3</p></div>
+                    <div class="div16" id="D4" ondragover="return over()" ondrop="return drop(event)"> <p>D4</p></div>
+                </div>
+            </div>
+            
+            <div class="choix">
+                <div class="jouer">
+                    <button>Joueur</button>
+                </div>
+                <div class="choisirjoueur">
+                    <button>Choix</button>
+                </div>
+                <div class="resume">
+                    <button>Resume</button>
+                </div>    
+            </div>
+    </main>
+
+  <script src="script.js"></script>  
+
+</body>
+</html>
